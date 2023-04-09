@@ -60,7 +60,6 @@ function makeSound(key) {
 }
 
 //Detecting keyboard press events
-
 document.addEventListener("keydown", function(event) {
 
     makeSound(event.key);
@@ -78,6 +77,7 @@ function buttonAnimation(currentKey) {
     }, 150);
 }
 
+//Detecting keyboard press events
 document.addEventListener("keydown", function(event) {
 
     buttonAnimation(event.key);
